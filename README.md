@@ -86,7 +86,7 @@ def check_vertical_up(i:int,j:int):
         contador += 1
 ```
 
-Observando o algorítmo percebi que apenas o valor que icrementamos as variáveis x e y mudava (as restrições de coluna e linha podem permanecer as mesmas), logo poderíamos simplificar a solução para apenas uma função: 
+Observando as funções percebi que apenas o valor que icrementamos as variáveis x e y mudavam (as restrições de coluna e linha podem permanecer as mesmas), logo poderíamos simplificar a solução para apenas uma função: 
 ```
 def search_in_direction(i, j, dx, dy):
     global contador
