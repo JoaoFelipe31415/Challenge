@@ -151,5 +151,9 @@ int countWord(String word, List<String> matriz) {
   }
   ```
 
+# Arquivo de Input
+
+O arquivo de input deve estar em .txt
+
 
 
