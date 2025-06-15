@@ -24,6 +24,7 @@ class HomePageCubit extends Cubit<HomeState> {
     emit(HomeState.loading());
     if (_matriz == null) {
       emit(HomeState.error(error: "Arquivo não carregado"));
+      return;
     } else if (controller.text.isEmpty) {
       emit(HomeState.error(error: "Digite uma palavra"));
       return;
