@@ -85,6 +85,7 @@ def check_vertical_up(i:int,j:int):
         global contador
         contador += 1
 ```
+# Continua até explorarmos as oito direções...
 
 Observando as funções percebi que apenas o valor que icrementamos as variáveis x e y mudavam (as restrições de coluna e linha podem permanecer as mesmas), logo poderíamos simplificar a solução para apenas uma função: 
 ```
