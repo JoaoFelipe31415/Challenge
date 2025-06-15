@@ -1,6 +1,6 @@
 # Challenge
 
-O desafio proposto tratava-se de encontrar a quantidade de ocorrência de uma palavra em uma matriz de letras.
+O desafio proposto tratava-se de encontrar a quantidade de ocorrências de uma palavra em uma matriz de letras.
 
 # Inicio
 
